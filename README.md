@@ -1,2 +1,8 @@
-# Plant_disease_classification_CNN
+# Plant\_disease\_classification\_CNN
+
 An end-to-end deep learning system using EfficientNetB0, Grad-CAM (Explainable AI), and Streamlit to classify 38 plant disease classes from leaf images with interactive visual heatmaps.
+
+
+
+This project implements an explainable artificial intelligence (XAI) solution to automatically detect and classify 38 healthy and diseased plant leaf categories across 14 crop species. Built with Transfer Learning (EfficientNetB0) and Keras, the system integrates Grad-CAM (Gradient-weighted Class Activation Mapping) to visually highlight the exact infected leaf regions driving each classification decision, bridging the gap between deep learning predictions and real-world agricultural trust.Key FeaturesHigh-Accuracy Classification: Utilizes Transfer Learning with fine-tuned EfficientNetB0 trained on 87,000+ RGB leaf images from the Kaggle New Plant Diseases Dataset.Explainable AI (Grad-CAM): Generates spatial heatmaps overlaid on input images so users can inspect why a specific disease was flagged.Interactive Streamlit Web App: Provides a clean interface where users drag-and-drop leaf photos to receive instant predictions, confidence scores, and diagnostic heatmaps.Production-Ready Pipeline: Built with a modular file structure (src/), regularized training callbacks (EarlyStopping, ReduceLROnPlateau), and evaluation metrics.Dataset \& Tech StackCategoryDetailsDatasetKaggle New Plant Diseases Dataset (38 classes, \~87,000 images)Deep LearningTensorFlow / Keras, EfficientNetB0 backboneExplainabilityGrad-CAM heatmap visualizationDeploymentStreamlit web applicationEvaluationPrecision, Recall, F1-Score, and Confusion Matrix
+
