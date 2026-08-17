@@ -3,7 +3,3 @@ tensorflow-cpu
 opencv-python-headless
 pillow
 numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
