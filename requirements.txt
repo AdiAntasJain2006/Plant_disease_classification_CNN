@@ -1,9 +1,9 @@
-tensorflow>=2.10.0
+streamlit
+tensorflow-cpu
+opencv-python-headless
+pillow
 numpy
 pandas
 matplotlib
-opencv-python
-pillow
-streamlit
+seaborn
 scikit-learn
-kaggle
