@@ -1,0 +1,1 @@
+Download the Kaggle "New Plant Diseases Dataset" here if running train.py locally.
